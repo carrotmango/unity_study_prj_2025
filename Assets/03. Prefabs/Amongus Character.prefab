@@ -1206,6 +1206,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6328030525518601515}
   - component: {fileID: 5427500688485345596}
+  - component: {fileID: 5051688412709071166}
+  - component: {fileID: 4472820810848734942}
   m_Layer: 0
   m_Name: Amongus Character
   m_TagString: Player
@@ -1256,6 +1258,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+--- !u!114 &5051688412709071166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7222317953634223598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2463981465330ea48a9d4d6c231afcd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  rotateSpeed: 70
+--- !u!114 &4472820810848734942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7222317953634223598}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7384b38d74cf314aaf8b51daea31d1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movespeed: 0.1
 --- !u!1 &7497750760375235729
 GameObject:
   m_ObjectHideFlags: 0
